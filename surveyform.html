@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Government Survey Form</title>
+</head>
+<body>
+  <h2>Government Public Survey Form</h2>
+  <form>
+    <!-- Gender -->
+    <p>1. What is your Gender?</p>
+    <input type="radio" name="gender" value="male"> Male <br>
+    <input type="radio" name="gender" value="female"> Female <br>
+    <input type="radio" name="gender" value="other"> Other <br><br>
+
+    <!-- Age Group -->
+    <p>2. What is your Age Group?</p>
+    <select name="age">
+      <option value="">-- Select Age Group --</option>
+      <option value="under18">Under 18</option>
+      <option value="18-25">18–25</option>
+      <option value="26-40">26–40</option>
+      <option value="41-60">41–60</option>
+      <option value="60plus">60+</option>
+    </select><br><br>
+
+
+    <p>3. What is your Employment Status?</p>
+    <input type="radio" name="employment" value="employed"> Employed <br>
+    <input type="radio" name="employment" value="unemployed"> Unemployed <br>
+    <input type="radio" name="employment" value="student"> Student <br>
+    <input type="radio" name="employment" value="retired"> Retired <br><br>
+
+    <p>4. Which Government Schemes are you aware of? (Select all that apply)</p>
+    <input type="checkbox" name="scheme" value="health"> Health Insurance Scheme <br>
+    <input type="checkbox" name="scheme" value="education"> Free Education Scheme <br>
+    <input type="checkbox" name="scheme" value="housing"> Housing Scheme <br>
+    <input type="checkbox" name="scheme" value="pension"> Pension Scheme <br>
+    <input type="checkbox" name="scheme" value="other"> Other <br><br>
+
+    <p>5. How satisfied are you with government services?</p>
+    <input type="radio" name="satisfaction" value="very_satisfied"> Very Satisfied <br>
+    <input type="radio" name="satisfaction" value="satisfied"> Satisfied <br>
+    <input type="radio" name="satisfaction" value="neutral"> Neutral <br>
+    <input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied <br>
+    <input type="radio" name="satisfaction" value="very_dissatisfied"> Very Dissatisfied <br><br>
+
+  
+    <input type="submit" value="Submit Survey">
+  </form>
+</body>
+</html>
